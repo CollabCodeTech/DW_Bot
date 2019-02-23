@@ -113,7 +113,7 @@ const plugins = (twitch: TwitchBot, discord: DiscordBot) => {
     twitch.say('View Blue Team\'s website https://blue.devwars.tv'), botUtils.ms({ seconds: 15 }));
 
   twitch.addCommand('*watch', () => {
-    twitch.say('View Code: https://watch.devwars.tv | View Red website: https://red.devwars.tv | View Blue website: https://blue.devwars.tv')
+    twitch.say('View Code: https://watch.devwars.tv | View Red website: https://red.devwars.tv | View Blue website: https://blue.devwars.tv');
   }, botUtils.ms({ seconds: 15 }));
 
   twitch.addCommand('*discord', () =>
